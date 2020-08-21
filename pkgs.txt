@@ -9,6 +9,7 @@ https://repo.anaconda.com/pkgs/main/linux-64/ca-certificates-2020.6.24-0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/cudatoolkit-10.1.243-h6bb024c_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/intel-openmp-2020.1-217.conda
 https://repo.anaconda.com/pkgs/main/linux-64/ld_impl_linux-64-2.33.1-h53a641e_7.conda
+https://repo.anaconda.com/pkgs/main/linux-64/libgfortran-ng-7.3.0-hdf63c60_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/libstdcxx-ng-9.1.0-hdf63c60_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/pandoc-2.10.1-0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/cudnn-7.6.5-cuda10.1_0.conda
@@ -119,3 +120,5 @@ https://repo.anaconda.com/pkgs/main/linux-64/mkl_random-1.1.1-py38h0573a6f_0.con
 https://repo.anaconda.com/pkgs/main/linux-64/numpy-1.19.1-py38hbc911f0_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/pandas-1.1.0-py38he6710b0_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/pytorch-1.4.0-cuda101py38h02f0884_0.conda
+https://repo.anaconda.com/pkgs/main/linux-64/scipy-1.5.0-py38h0b6359f_0.conda
+https://repo.anaconda.com/pkgs/main/noarch/seaborn-0.10.1-py_0.conda
