@@ -1,6 +1,6 @@
 from math import *
 import random
-
+import numpy as np
 
 ### ------------------------------------- ###
 # Below, is the robot class
@@ -91,15 +91,16 @@ class robot:
         ##    as list.append([index, dx, dy]), this format is important for data creation done later
         
         for i in range(len(self.landmarks)):
-            l_dx = (self.x - self.landmarks[i][0])
-            l_dy = (self.y - self.landmarks[i][1])
-            
+            l_dx = (self.landmarks[i][0] - self.x)
+            l_dy = (self.landmarks[i][1] - self.y)
+
             distance = np.linalg.norm([l_dx, l_dy])
-            
+
             if distance <= self.measurement_range:
-                measurements.append((i, 
-                                     l_dx + self.rand() * self.measurement_noise, 
-                                     l_dy + self.rand() * self.measurement_noise))
+                l_dx = l_dx + self.rand() * self.measurement_noise
+                l_dy = l_dy + self.rand() * self.measurement_noise
+            
+                measurements.append((i, l_dx, l_dy))
             
         
         ## TODO: return the final, complete list of measurements
